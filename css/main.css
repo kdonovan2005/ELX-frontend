@@ -155,27 +155,31 @@ div {
 /* styles category and sub category images */
 .left-hero {
   background-color: #fff;
-  padding: 5% 5% 0 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .left-hero-image {
   width: 100%;
-  height: auto;
-  overflow: hidden;
 }
 
 .right-sub-category {
   background-color: #fff;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: scroll;
 }
 
 .box-shadow-left {
-  box-shadow: -10px 0px 10px 1px rgba(0,0,0,0.6);
+  box-shadow: -10px 0px 15px 2px rgba(0,0,0,0.2);
 }
 
 .sub-category-title {
   color: rgb(235, 104, 82);
+  font-family: 'ElectroluxSans_Bold';
+  padding-left: 8%;
 }
 
 /*.features-plus {
