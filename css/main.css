@@ -1,0 +1,144 @@
+/* adds all Electrolux Fonts from Dropbox folder */
+@font-face {
+  font-family: 'ElectroluxSans_Bold';
+  src: url(/fonts/ElectroluxSans_Bold.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_light';
+  src: url(/fonts/ElectroluxSans_light.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Oblique_Bold';
+  src: url(/fonts/ElectroluxSans_Oblique_Bold.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Oblique_Light';
+  src: url(/fonts/ElectroluxSans_Oblique_Light.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Oblique_Regular';
+  src: url(/fonts/ElectroluxSans_Oblique_Regular.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Oblique_Semibold';
+  src: url(/fonts/ElectroluxSans_Oblique_Semibold.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Oblique_Thin';
+  src: url(/fonts/ElectroluxSans_Oblique_Thin.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Regular';
+  src: url(/fonts/ElectroluxSans_Regular.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Semibold';
+  src: url(/fonts/ElectroluxSans_Semibold.otf);
+}
+
+@font-face {
+  font-family: 'ElectroluxSans_Thin';
+  src: url(/fonts/ElectroluxSans_Thin.otf);
+}
+
+/* sets background color of application to Electrolux blue,
+default font color to white, and default font to ES_Reg */
+body {
+  background-color: rgb(26, 36, 95);
+  color: #fff;
+  font-family: 'ElectroluxSans_Regular';
+  margin: 0;
+  padding: 0;
+}
+
+/* style ul to have default of no bullet points */
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  border-style: none;
+}
+
+/* removes padding and margin so application reaches screen edge */
+.wrapper {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* styles the header image */
+.header-image {
+  width: 100%;
+  border-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  max-height: 500px;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+/* styles feautre suite section */
+.feature-suite {
+  border-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(235, 104, 82);
+}
+
+/* aligns to center */
+.align-center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* positions header text */
+#brand-header-text {
+  font-family: 'ElectroluxSans_Thin';
+  font-size: 3.5em;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 100%;
+  height: auto;
+}
+
+/* positions the Electrolux logo/placeholder */
+#brand-logo {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 25%;
+  bottom: 10%;
+  background-color: #fff;
+  color: #000;
+}
+
+/*.features-plus {
+  width: 2%;
+  height: auto;
+  z-index: 10;
+}
+
+.features-plus:hover {
+  box-shadow: 0px 0px 10px rgba(0,154,191, 0.8);
+}*/

@@ -1,0 +1,118 @@
+/* sets menu options */
+.menu {
+  background-color: rgb(235, 104, 82);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'ElectroluxSans_Semibold', sans-serif;
+  width: 100%;
+}
+
+/* displays main menu items */
+.menu li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 0 14px 4vw;
+  position: relative;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* styles main menu items to be width of my list icon */
+.menu li div p {
+  padding: 14px, 0px;
+}
+
+.menu ul li ul li a:hover {
+  padding-left:9px;
+}
+
+.menu ul li ul li {
+  padding: 3px 3px 3px 15px;
+  min-width: 200px;
+  background-color: rgb(235, 104, 82);
+  z-index: 10;
+}
+
+/* adds triangle to bottom of nav menu */
+.menu ul li ul li:after {
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: solid 10px rgb(235, 104, 82);
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  z-index: 10;
+}
+
+/* doesn't allow for text to wrap in menu */
+.menu ul li ul li a {
+  font: 'ElectroluxSans_Semibold';
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+/* styles li links */
+.menu ul li a {
+  padding: 15px 10px;
+  color: #fff;
+  font-family: 'ElectroluxSans_Semibold';
+  text-decoration: none;
+}
+
+/* sets hover properties for the menu */
+.menu ul li ul, .menu:hover ul li ul, .menu:hover ul li:hover ul li ul{
+  display:none;
+  list-style-type:none;
+}
+
+.menu:hover ul, .menu:hover ul li:hover ul, .menu:hover ul li:hover ul li:hover ul {
+  display:block;
+}
+
+.menu:hover ul li:hover ul {
+  position: absolute;
+  margin-top: 1px;
+  font: 10px;
+  bottom: 100%;
+}
+
+.menu:hover ul li:hover ul li:hover ul {
+  position: absolute;
+  margin-left: 145px;
+  margin-top: -22px;
+  font: 10px;
+}
+
+.menu ul li ul li:first-child {
+  padding-top: 15px;
+}
+
+.menu ul li ul li:last-child {
+  padding-bottom: 15px;
+}
+
+/* styles my list item image and text */
+#my-list-image {
+  position: relative;
+  max-height: 100%;
+  padding: 0;
+  float: right;
+  z-index: 0;
+}
+
+#my-list-text {
+  position: absolute;
+  padding-left: 30%;
+  max-width: 100%;
+  color: #fff;
+  background-color: transparent;
+  z-index: 0;
+}
