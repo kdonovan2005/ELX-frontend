@@ -10,7 +10,7 @@ img {
 /* styles slideshow container */
 .slideshow-container {
   width: 100%;
-  min-height: 110vh;
+  min-height: 120vh;
   position: relative;
   margin: auto;
   border-style: none;
