@@ -127,10 +127,51 @@ div {
   position: absolute;
   top: 80%;
   left: 0%;
-  width: 25%;
   bottom: 10%;
+  width: 25%;
   background-color: #fff;
   color: #000;
+}
+
+/* positions the category name */
+.category-name {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  bottom: 10%;
+  text-align: center;
+  font-family: 'ElectroluxSans_Bold';
+  line-height: normal;
+}
+
+.category-name-text {
+  padding: 10%;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* styles category and sub category images */
+.left-hero {
+  background-color: #fff;
+  padding: 5% 5% 0 0;
+}
+
+.left-hero-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.right-sub-category {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.box-shadow-left {
+  box-shadow: -10px 0px 10px 1px rgba(0,0,0,0.6);
 }
 
 /*.features-plus {
