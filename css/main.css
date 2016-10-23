@@ -203,19 +203,30 @@ div {
   margin: 0;
 }
 
-.available-in {
-  padding: 0 0 0 3%;
+.available-in, .available-color {
   color: rgb(100,100,100);
   font-size: 0.7em;
   margin: 0 0 1% 0;
 }
 
-.color-circle {
-  height: 2%;
-  width: 2%;
-  border-radius: 50%;
-  line-height: 14px;
-  background-color: rgb(139,139,139);
+.available-in {
+  padding: 0 0 0 3%;
+}
+
+.available-color-text {
+  padding: 0;
+  display: inline;
+  margin: 0 0 1% 0;
+}
+
+#color-circle {
+  display: block;
+  float: left;
+  margin: 0 2% 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: rgb(129, 129, 129);
 }
 
 /*.features-plus {
