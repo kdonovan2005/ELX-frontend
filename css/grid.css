@@ -10,7 +10,7 @@
   display: flex;
 
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;;
 }
 
 .flex-item {
@@ -25,14 +25,26 @@
   font-family: 'ElectroluxSans_Semibold';
 }
 
-.flex-item img {
+.flex-item-sm {
+  padding: 1%;
+  width: 22%;
+  height: 15%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  line-height: normal;
+  font-size: 0.4em;
+  text-align: left;
+  font-family: 'ElectroluxSans_Semibold';
+}
+
+.flex-item, .flex-item-sm img {
   padding: 0;
   margin: 0;
   width: auto;
   height: 200px;
 }
 
-.flex-item a {
+.flex-item, .flex-item-sm a {
   margin: 0;
   padding: 0;
   line-height: normal;
