@@ -20,4 +20,7 @@ function openTab(evt, tabName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+window.onload = function() {
+  defaultOpen = document.getElementById("defaultOpen");
+  defaultOpen.click();
+}

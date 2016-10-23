@@ -157,7 +157,7 @@ div {
 .left-hero {
   background-color: #fff;
   padding: 0;
-  height: 100vh;
+  height: 110vh;
   overflow: hidden;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.6);
 }
@@ -169,8 +169,8 @@ div {
 .right-sub-category {
   background-color: #fff;
   width: 100%;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 110vh;
+  max-height: 110vh;
   overflow: scroll;
 }
 

@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="/css/main.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/menu.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/grid.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/product-tabs.css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="/javascripts/product-tabs.js"></script>
   </head>
   <body>
 
@@ -46,9 +48,14 @@
 
           <div class="col-7 right-sub-category box-shadow-left grey-bg">
 
+            <!-- begin header info -->
+
             <h3 class="product-detail-name">Extra Super Long Product Name With Lots of Detailed Information About the Product in Question</h3>
             <p class="product-model-number">Model Number</p>
             <br>
+
+            <!-- begin available colors -->
+
             <div class="row">
 
               <p class="col-2 available-in">AVAILABLE IN</p>
@@ -57,8 +64,66 @@
                 <p class="available-color-text">COLOR</p>
               </div>
 
+              <!-- end available colors -->
+
             </div>
-            
+
+            <!-- end header info -->
+
+            <!-- begin tabs -->
+
+            <ul class="tab">
+              <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'features')" id="defaultOpen">FEATURES</a></li>
+              <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'imageGallery')">IMAGE GALLERY</a></li>
+              <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'specifications')">SPECIFICATIONS</a></li>
+            </ul>
+
+            <!-- begin tab content -->
+
+            <div id="features" class="tabcontent">
+
+              <div class="row">
+
+                <div class="col-8">
+
+                  <!-- feature image -->
+                  <img src="/images/category-pics/drawer.jpg" alt="" class="product-detail-image"/>
+
+                  <!-- feature title/name -->
+                  <h4 id="feature-name">Place the Feature Name Here</h4>
+
+                  <!-- feature description -->
+                  <p id="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                </div>
+
+                <div class="col-4">
+
+                  <!-- begin additional features -->
+
+                  <ul>
+
+                      <li class="additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
+
+                  </ul>
+
+                  <!-- end additional features -->
+
+                </div>
+              </div>
+            </div>
+
+            <!-- end tab content -->
+
+            <div id="imageGallery" class="tabcontent">
+
+            </div>
+
+            <div id="specifications" class="tabcontent">
+
+            </div>
+
+            <!-- end tabs -->
 
           </div>
 

@@ -40,8 +40,45 @@ ul.tab li a:focus, .active {
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 2%;
     background-color: #fff;
     border-top: none;
     color: #000;
+}
+
+.product-detail-image {
+  max-width: 100%;
+  max-height: 70%;
+}
+
+#defaultOpen.active {
+  color: rgb(205,205,205);
+}
+
+#feature-name {
+  color: rgb(235,104,82);
+}
+
+#feature-description {
+  max-width: 100%;
+}
+
+.feature-text, .feature-plus {
+  display: inline;
+}
+
+.feature-text {
+  text-align: center;
+}
+
+.feature-plus {
+  height: 18px;
+}
+
+.additional-features {
+  text-align: center;
+  width: 100%;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
 }
