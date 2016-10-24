@@ -75,20 +75,3 @@ ul.tab li a:focus, .active {
   height: 18px;
   padding-right: 2%;
 }
-
-.additional-features {
-  text-align: center;
-  width: 100%;
-  height: 10%;
-  line-height: normal;
-  padding: 0;
-  margin: 0;
-}
-
-.additional-features-container {
-  min-height: 100%;
-}
-
-.features {
-  height: 100%;
-}

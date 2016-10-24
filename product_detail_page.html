@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="/css/menu.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/grid.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/product-tabs.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/image-slider.css" media="screen" charset="utf-8">
     <script type="text/javascript" src="/javascripts/product-tabs.js"></script>
+    <script type="text/javascript" src="/javascripts/slider.js"></script>
   </head>
   <body>
 
@@ -46,27 +48,32 @@
 
           <!-- begin product info -->
 
-          <div class="col-7 right-sub-category box-shadow-left grey-bg">
+          <div class="col-7 box-shadow-left right-sub-category">
 
             <!-- begin header info -->
 
-            <h3 class="product-detail-name">Extra Super Long Product Name With Lots of Detailed Information About the Product in Question</h3>
-            <p class="product-model-number">Model Number</p>
-            <br>
+            <div class="grey-bg">
 
-            <!-- begin available colors -->
+              <h3 class="product-detail-name">Extra Super Long Product Name With Lots of Detailed Information About the Product in Question</h3>
+              <p class="product-model-number">Model Number</p>
+              <br>
 
-            <div class="row">
+              <!-- begin available colors -->
 
-              <p class="col-2 available-in">AVAILABLE IN</p>
-              <div class="col-5 available-color">
-                <div id="color-circle"></div>
-                <p class="available-color-text">COLOR</p>
+              <div class="row">
+
+                <p class="col-2 available-in">AVAILABLE IN</p>
+                <div class="col-5 available-color">
+                  <div id="color-circle"></div>
+                  <p class="available-color-text">COLOR</p>
+                </div>
+
+                <!-- end available colors -->
+
               </div>
 
-              <!-- end available colors -->
-
             </div>
+
 
             <!-- end header info -->
 
@@ -97,29 +104,73 @@
 
                 </div>
 
-                <div class="col-4 additional-features-container">
-
                   <!-- begin additional features -->
 
-                  <ul class="flex-container-features">
+                  <ul class="col-4 flex-container">
 
-                      <li class="flex-item-feature additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
-                      <li class="flex-item-feature additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
-                      <li class="flex-item-feature additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
-                      <li class="flex-item-feature additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
-                      <li class="flex-item-feature additional-features"><img src="/images/icons/FEATURES PLUS BUTTON-01.png" alt="icon plus" class="feature-plus"/>Feature 1</li>
+                      <li class="flex-item-features">+ Feature 1</li>
+                      <li class="flex-item-features">+ Feature 2</li>
+                      <li class="flex-item-features">+ Feature 3</li>
+                      <li class="flex-item-features">+ Feature 4</li>
+                      <li class="flex-item-features">+ Feature 5</li>
+                      <li class="flex-item-features">+ Feature 6</li>
+                      <li class="flex-item-features">+ Feature 7</li>
+                      <li class="flex-item-features">+ Feature 8</li>
 
                   </ul>
 
                   <!-- end additional features -->
 
-                </div>
               </div>
             </div>
 
             <!-- end tab content -->
 
             <div id="imageGallery" class="tabcontent">
+
+              <!-- begin tab content -->
+
+              <!-- begin feature suite slider -->
+
+              <section class="">
+
+                <div class="slideshow-container-sm">
+
+                  <!-- begin slider images -->
+                  <div class="mySlides fade">
+                    <img src="/images/suite-1/IC_EI_GF_SS_EW24ID70_609.jpg">
+                  </div>
+
+                  <div class="mySlides fade">
+                    <img src="/images/suite-2/MM_EI_FC_GF_BM_FD_V2_01_448__v1.jpg">
+                  </div>
+
+                  <div class="mySlides fade">
+                    <img src="/images/suite-3/EFLS617STT_EFME617STT_T_F-P.jpg">
+                  </div>
+
+                  <!-- end slider images -->
+
+                  <!-- begin slider navigation -->
+
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                </div>
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <!-- end slider navigation -->
+              </section>
+
+              <!-- end feature suite slider -->
+
+              <!-- end tab content -->
 
             </div>
 
