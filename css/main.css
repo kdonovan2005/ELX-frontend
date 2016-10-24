@@ -229,12 +229,6 @@ div {
   background-color: rgb(129, 129, 129);
 }
 
-/*.features-plus {
-  width: 2%;
-  height: auto;
-  z-index: 10;
+.spec-list {
+  text-align: left;
 }
-
-.features-plus:hover {
-  box-shadow: 0px 0px 10px rgba(0,154,191, 0.8);
-}*/

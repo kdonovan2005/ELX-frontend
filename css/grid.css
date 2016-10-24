@@ -42,6 +42,26 @@
   text-align: center;
 }
 
+.flex-item-spec {
+  text-align: left;
+  white-space: nowrap;
+  padding: 0;
+  margin: 3%;
+}
+
+.flex-item-spec p {
+  padding: 0;
+  margin: 0;
+  font-size: .8em;
+}
+
+.flex-item-spec h4 {
+  padding: 0;
+  margin: 0;
+  font-size: .9em;
+  font-family: 'ElectroluxSans_Bold';
+}
+
 .flex-item, .flex-item-sm img {
   padding: 0;
   margin: 0;
