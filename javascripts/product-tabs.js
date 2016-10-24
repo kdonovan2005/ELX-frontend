@@ -23,4 +23,6 @@ function openTab(evt, tabName) {
 window.onload = function() {
   defaultOpen = document.getElementById("defaultOpen");
   defaultOpen.click();
+  defaultOpenFeature = document.getElementById("defaultOpenFeature");
+  defaultOpenFeature.click();
 }

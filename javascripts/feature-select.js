@@ -1,12 +1,6 @@
 document.addEventListener("click", function(e) {
   var target = e.target;
 
-  // find all element with class="featurelinks" and set color to blue
-  featurelinks = document.getElementsByClassName("featurelinks");
-  for (i = 0; i < featurelinks.length; i++) {
-      featurelinks[i].style.color = "rgb(0,154,191)"
-  }
-
   // if not a li item, ignore click
   if (!target.tagName.toLowerCase() === "li") {
     return;
@@ -16,6 +10,12 @@ document.addEventListener("click", function(e) {
   var newSrc = target.getAttribute("data-src");
   if (!newSrc) {
     return;
+  }
+
+  // find all element with class="featurelinks" and set color to blue
+  featurelinks = document.getElementsByClassName("featurelinks");
+  for (i = 0; i < featurelinks.length; i++) {
+      featurelinks[i].style.color = "rgb(0,154,191)"
   }
 
   // replace original image src with new image src
