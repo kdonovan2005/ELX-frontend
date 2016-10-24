@@ -62,14 +62,14 @@
   font-family: 'ElectroluxSans_Bold';
 }
 
-.flex-item, .flex-item-sm img {
+.flex-item img {
   padding: 0;
   margin: 0;
   width: auto;
   height: 200px;
 }
 
-.flex-item a {
+.flex-item a, .flex-item-sm a {
   margin: 0;
   padding: 0;
   line-height: normal;
