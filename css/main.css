@@ -166,11 +166,18 @@ div {
   width: 100%;
 }
 
-.right-sub-category {
+.right-sub-category, .right-hero {
   background-color: #fff;
   width: 100%;
   min-height: 110vh;
   max-height: 110vh;
+}
+
+.right-hero {
+  overflow: scroll;;
+}
+
+.right-sub-category {
   overflow: scroll;
 }
 
@@ -227,8 +234,4 @@ div {
   height: 12px;
   border-radius: 6px;
   background-color: rgb(129, 129, 129);
-}
-
-.spec-list {
-  text-align: left;
 }

@@ -1,5 +1,5 @@
 /* flexbox styling */
-.flex-container {
+.flex-container, .flex-container-column {
   padding: 0;
   margin: 0;
   min-height: 100%;
@@ -9,8 +9,21 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+
+.flex-container {
   -webkit-flex-flow: row wrap;
   justify-content: flex-start;
+}
+
+.flex-container-column {
+  max-height: 400px;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-around;
 }
 
 .flex-item, .flex-item-sm, .flex-item-features {
@@ -45,20 +58,20 @@
 .flex-item-spec {
   text-align: left;
   white-space: nowrap;
-  padding: 0;
-  margin: 3%;
+  padding-top: 2%;
+  line-height: normal;
 }
 
 .flex-item-spec p {
   padding: 0;
   margin: 0;
-  font-size: .8em;
+  font-size: .7em;
 }
 
 .flex-item-spec h4 {
   padding: 0;
   margin: 0;
-  font-size: .9em;
+  font-size: .8em;
   font-family: 'ElectroluxSans_Bold';
 }
 

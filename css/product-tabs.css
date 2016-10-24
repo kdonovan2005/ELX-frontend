@@ -78,3 +78,7 @@ ul.tab li a:focus, .active {
   height: 18px;
   padding-right: 2%;
 }
+
+.tabcontent {
+  overflow: scroll;
+}
