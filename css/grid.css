@@ -1,5 +1,5 @@
 /* flexbox styling */
-.flex-container {
+.flex-container, .flex-container-features {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -8,9 +8,19 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
-  justify-content: flex-start;;
+}
+
+.flex-container {
+  justify-content: flex-start;
+}
+
+.flex-container-features {
+  height: 100%;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
 }
 
 .flex-item {
@@ -19,6 +29,16 @@
   height: 20%;
   margin-top: 1%;
   margin-bottom: 4%;
+  line-height: normal;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'ElectroluxSans_Semibold';
+}
+
+.flex-item-feature {
+  padding: 1%;
+  width: 100%;
+  height: auto;
   line-height: normal;
   font-size: 1em;
   text-align: center;
