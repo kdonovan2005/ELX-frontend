@@ -1,6 +1,12 @@
 document.addEventListener("click", function(e) {
   var target = e.target;
 
+  // find all element with class="featurelinks" and set color to blue
+  featurelinks = document.getElementsByClassName("featurelinks");
+  for (i = 0; i < featurelinks.length; i++) {
+      featurelinks[i].style.color = "rgb(0,154,191)"
+  }
+
   // if not a li item, ignore click
   if (!target.tagName.toLowerCase() === "li") {
     return;
@@ -27,4 +33,7 @@ document.addEventListener("click", function(e) {
   var dstr = document.getElementById("feature-description").innerHTML;
   var dreplace = dstr.replace(dstr, newDescription);
   document.getElementById("feature-description").innerHTML = dreplace;
+
+  //style target element text as orange
+  target.style.color = "rgb(235,104,82)"
 })
