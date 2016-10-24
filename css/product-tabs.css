@@ -5,6 +5,8 @@ ul.tab {
     padding: 0;
     overflow: hidden;
     background-color: rgb(205,205,205);
+    border-left: 1% solid #fff;
+    border-right: 1% solid #fff;
 }
 
 /* Float the list items side by side */
@@ -52,6 +54,7 @@ ul.tab li a:focus, .active {
 }
 
 #defaultOpen.active {
+  background-color: #fff;
   color: rgb(205,205,205);
 }
 

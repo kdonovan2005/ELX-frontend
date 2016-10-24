@@ -7,22 +7,22 @@
   border-style: none;
 }
 
+.slideshow-container, .slideshow-container-sm {
+  position: relative;
+  margin: auto;
+  border-style: none;
+}
+
 /* styles slideshow container */
 .slideshow-container {
   width: 100%;
   min-height: 130vh;
-  position: relative;
-  margin: auto;
-  border-style: none;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.6);
 }
 
 .slideshow-container-sm {
   width: 575px;
   min-height: 340px;
-  position: relative;
-  margin: auto;
-  border-style: none;
 }
 
 /* next & previous buttons */
