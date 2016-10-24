@@ -48,22 +48,22 @@ ul.tab li a:focus, .active {
     color: #000;
 }
 
-.product-detail-image {
-  max-width: 100%;
-  max-height: 70%;
-}
-
 #defaultOpen.active {
   background-color: #fff;
   color: rgb(205,205,205);
 }
 
 #feature-name {
+  margin: 2% 0;
   color: rgb(235,104,82);
+  font-family: 'ElectroluxSans_Semibold';
+  text-transform: uppercase;
 }
 
 #feature-description {
+  margin: 0;
   max-width: 100%;
+  font-size: 0.8em;
 }
 
 .feature-text, .feature-plus {
@@ -81,4 +81,12 @@ ul.tab li a:focus, .active {
 
 .tabcontent {
   overflow: scroll;
+}
+
+#feature-image {
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }

@@ -174,7 +174,7 @@ div {
 }
 
 .right-hero {
-  overflow: scroll;;
+  overflow: hidden;
 }
 
 .right-sub-category {
