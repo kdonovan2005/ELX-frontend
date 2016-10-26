@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="/css/menu.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/grid.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/my-list.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/keyboard.css" media="screen" charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/keyboard-slider.js"></script>
     <script type="text/javascript" src="/javascripts/my-list-modal.js"></script>
+    <script type="text/javascript" src="/javascripts/keyboard.js"></script>
   </head>
   <body>
 
@@ -286,7 +288,81 @@
 
                   <div class="padding-div">
 
-                    <div class="keyboard-bg">Keyboard will go here</div>
+                    <div class="keyboard-bg">
+
+                      <!-- begin keyboard and text area -->
+
+                      <div id="container">
+
+                        <!-- text area -->
+                        <textarea id="write" rows="1"></textarea>
+
+                        <!-- begin keyboard -->
+
+                        <div class="keyboard-area">
+
+                          <!-- first row -->
+                          <ul class="flex-container-keyboard" id="keyboard">
+                            <li class="symbol"><span class="off">q</span><span class="on">1</span></li>
+                            <li class="symbol"><span class="off">w</span><span class="on">2</span></li>
+                            <li class="symbol"><span class="off">e</span><span class="on">3</span></li>
+                            <li class="symbol"><span class="off">r</span><span class="on">4</span></li>
+                            <li class="symbol"><span class="off">t</span><span class="on">5</span></li>
+                            <li class="symbol"><span class="off">y</span><span class="on">6</span></li>
+                            <li class="symbol"><span class="off">u</span><span class="on">7</span></li>
+                            <li class="symbol"><span class="off">i</span><span class="on">8</span></li>
+                            <li class="symbol"><span class="off">o</span><span class="on">9</span></li>
+                            <li class="symbol"><span class="off">p</span><span class="on">0</span></li>
+                            <li class="delete special-bg" id="backspace"></li>
+                          </ul>
+
+                          <!-- second row -->
+                          <ul class="flex-container-keyboard" id="keyboard">
+                            <li class="symbol"><span class="off">a</span><span class="on">!</span></li>
+                            <li class="symbol"><span class="off">s</span><span class="on">@</span></li>
+                            <li class="symbol"><span class="off">d</span><span class="on">#</span></li>
+                            <li class="symbol"><span class="off">f</span><span class="on">$</span></li>
+                            <li class="symbol"><span class="off">g</span><span class="on">%</span></li>
+                            <li class="symbol"><span class="off">h</span><span class="on">^</span></li>
+                            <li class="symbol"><span class="off">j</span><span class="on">&</span></li>
+                            <li class="symbol"><span class="off">k</span><span class="on">*</span></li>
+                            <li class="symbol"><span class="off">l</span><span class="on">(</span></li>
+                            <li class="symbol"><span class="off">/</span><span class="on">)</span></li>
+                          </ul>
+
+                          <!-- third row -->
+                          <ul class="flex-container-keyboard" id="keyboard">
+                            <li class="symbol"><span class="off">*</span><span class="on">-</span></li>
+                            <li class="symbol"><span class="off">z</span><span class="on">_</span></li>
+                            <li class="symbol"><span class="off">x</span><span class="on">+</span></li>
+                            <li class="symbol"><span class="off">c</span><span class="on">=</span></li>
+                            <li class="symbol"><span class="off">v</span><span class="on">:</span></li>
+                            <li class="symbol"><span class="off">b</span><span class="on">;</span></li>
+                            <li class="symbol"><span class="off">n</span><span class="on">|</span></li>
+                            <li class="symbol"><span class="off">m</span><span class="on">\</span></li>
+                            <li class="symbol"><span class="off">*</span><span class="on">?</span></li>
+                          </ul>
+
+                          <!-- fourth row -->
+                          <ul class="flex-container-keyboard" id="keyboard">
+                            <li class="symbol left-shift"><span class="off">123</span><span class="on">ABC</span></li>
+                            <li class="letter">.</li>
+                            <li class="space">&nbsp;</li>
+                            <li class="letter">@</li>
+                            <li class="letter"><img src="" alt="" /></li>
+                          </ul>
+
+                          <br style="clear: both">
+
+                        </div>
+
+                        <!-- end keyboard -->
+
+                      </div>
+
+                      <!-- end keyboard and textarea -->
+
+                    </div>
 
                   </div>
 
