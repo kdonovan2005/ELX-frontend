@@ -1,32 +1,32 @@
 $(function(){
   var $write = $('#write'),
-  shift = false,
-  capslock = false;
+  shift = false;
 
   $('#keyboard li').click(function(){
     var $this = $(this),
-    character = $this.html(); // If it's a lowercase letter, nothing happens to this variable
+    character = $this.html();
 
-    // Shift key
-    if ($this.hasClass('left-shift') || $this.hasClass('right-shift')) {
-      $('.symbol span').toggle();
-    }
+  // Shift keys
+  if ($this.hasClass('left-shift') || $this.hasClass('right-shift')) {
+    $('.symbol span').toggle();
 
-    // Delete
-    if ($this.hasClass('delete')) {
-      var html = $write.html();
+    shift = (shift === true) ? false : true;
+    return false;
+  }
 
-      $write.html(html.substr(0, html.length - 1));
-      return false;
-    }
+  // Delete
+  if ($this.hasClass('delete')) {
+    var html = $write.val();
 
-    // Special characters
-    if ($this.hasClass('symbol')) character = $('span:visible', $this).html();
-    if ($this.hasClass('space')) character = ' ';
-    if ($this.hasClass('tab')) character = "\t";
-    if ($this.hasClass('return')) character = "\n";
+    $write.val(html.substr(0, html.length - 1));
+    return false;
+  }
 
-    // Add the character
-    $write.html($write.html() + character);
+  // Special characters
+  if ($this.hasClass('symbol')) character = $('span:visible', $this).html();
+  if ($this.hasClass('space')) character = ' ';
+
+  // Add the character
+  $write.val($write.val() + character);
   });
 });
