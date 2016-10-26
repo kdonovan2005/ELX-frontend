@@ -24,9 +24,15 @@
   color: #fff;
 }
 
+.my-list-modal-content h2 {
+  padding: 2%;
+  margin: 0;
+}
+
 .share-mylist {
   background-color: rgb(235,104,82);
   position: relative;
+  margin: 2% 0 1% 0;
 }
 
 .share-mylist:after {
@@ -43,26 +49,95 @@
 }
 
 .share-mylist h2 {
-  padding: 2% 0;
+  padding: 1% 0;
   margin: 0;
   color: #fff;
   text-align: center;
 }
 
 .my-list-modal-footer {
+  font-size: 0.75em;
+  padding: 1% 0 2% 0;
   text-align: center;
 }
 
-.my-list-modal-content h2 {
-  padding: 2%;
+.my-list-modal-footer h3 {
+  padding: 1%;
   margin: 0;
+  position: relative;
+  display: inline;
 }
 
-.my-list-modal-footer button {
+.clear-list-button {
   background-color: rgb(154,154,154);
   color: #fff;
   border: none;
-  padding: 1% 2%;
+  padding: 0.5% 2%;
   position: relative;
-  display: block;
+  display: inline;
+}
+
+.slider-div {
+  display: none;
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(237,237,237);
+}
+
+#send-and-share, #send-mylist {
+  color: rgb(235,104,82);
+  text-align: left;
+  max-width: 100%;
+}
+
+#send-and-share {
+  margin: 0;
+  padding: 0;
+}
+
+#send-mylist {
+  margin: 0;
+  padding: 0 0 25% 0;
+}
+
+#send-text {
+  color: rgb(175,175,175);
+  width: 100%;
+  text-align: left;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+
+.keyboard-bg {
+  background-color: #fff;
+  width: 100%;
+}
+
+.padding-div {
+  padding: 2%;
+}
+
+.padding-div-buttons {
+  padding: 10%;
+}
+
+.send-button, .cancel-button {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.send-button {
+  background-color: rgb(0,154,191);
+  width: 100%;
+  padding-top: 110%;
+  padding-bottom: 10%;
+  margin-bottom: 3%
+}
+
+.cancel-button {
+  background-color: rgb(205,205,205);
+  width: 100%;
+  padding: 8% 0;
 }
