@@ -143,6 +143,7 @@ div {
   text-align: center;
   font-family: 'ElectroluxSans_Bold';
   line-height: normal;
+  width: auto;
 }
 
 .category-name-text {
