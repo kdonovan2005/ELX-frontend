@@ -1,3 +1,4 @@
+/* styles main modal div */
 .my-list-modal {
   width: 70%;
   height: 80%;
@@ -6,6 +7,7 @@
   color: rgb(100,100,100);
 }
 
+/* styles modal header */
 .my-list-modal-header {
   background-color: rgb(11,87,117);
   line-height: 10%;
@@ -24,11 +26,38 @@
   color: #fff;
 }
 
-.my-list-modal-content h2 {
-  padding: 2%;
+/* styles close button */
+.close-modal-button {
+  background-color: rgb(0, 154,191);
+  float: right;
+  height: 47px;
+  width: 47px;
   margin: 0;
+  padding: 0;
 }
 
+.line1 {
+  width: 45px;
+  height: 47px;
+  border-bottom: 1px solid #fff;
+  -webkit-transform:
+    translateY(-17px)
+    translateX(18px)
+    rotate(45deg);
+  position: absolute;
+}
+
+.line2 {
+  width: 45px;
+  height: 47px;
+  border-bottom: 1px solid #fff;
+  -webkit-transform:
+    translateY(-17px)
+    translateX(-15px)
+    rotate(-45deg);
+}
+
+/* styles share list options */
 .share-mylist {
   background-color: rgb(235,104,82);
   position: relative;
@@ -55,6 +84,7 @@
   text-align: center;
 }
 
+/* styles modal footer */
 .my-list-modal-footer {
   font-size: 0.75em;
   padding: 1% 0 2% 0;
@@ -75,6 +105,12 @@
   padding: 0.5% 2%;
   position: relative;
   display: inline;
+}
+
+/* styles modal content */
+.my-list-modal-content h2 {
+  padding: 2%;
+  margin: 0;
 }
 
 .slider-div {
