@@ -1,5 +1,5 @@
 /* styles the images to fill the entire div */
-.slideshow-container, .slideshow-container-sm img {
+.slideshow-container, .slideshow-container-sm img, .fp-slideshow-container img {
   width: 100%;
   height: 100%;
   display: block;
@@ -15,8 +15,7 @@
   border-style: none;
 }
 
-
-.slideshow-container, .slideshow-container-sm {
+.slideshow-container, .slideshow-container-sm, .fp-slideshow-container {
   position: relative;
   margin: auto;
   border-style: none;
@@ -32,6 +31,11 @@
 .slideshow-container-sm {
   width: 575px;
   min-height: 340px;
+}
+
+.fp-slideshow-container {
+  height: 90vh;
+  width: 75vw;
 }
 
 /* next & previous buttons */
