@@ -1,5 +1,5 @@
 /* styles the images to fill the entire div */
-.slideshow-container, .slideshow-container-sm img, .fp-slideshow-container img {
+.slideshow-container, .slideshow-container-sm img, .fp-slideshow-container img, .slideshow-container-large-gallery img {
   width: 100%;
   height: 100%;
   display: block;
@@ -15,7 +15,7 @@
   border-style: none;
 }
 
-.slideshow-container, .slideshow-container-sm, .fp-slideshow-container {
+.slideshow-container, .slideshow-container-sm, .fp-slideshow-container, .slideshow-container-large-gallery {
   position: relative;
   margin: auto;
   border-style: none;
@@ -38,6 +38,12 @@
   width: 75vw;
 }
 
+.slideshow-container-large-gallery {
+  margin: 5% 0;
+  height: 90vh;
+  width: auto;
+}
+
 /* next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -46,7 +52,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(205,205,205);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -70,7 +76,7 @@
   height: 13px;
   width: 13px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(205,205,205);
   border-radius: 50%;
   position: relative;
   display: inline-block;
@@ -78,7 +84,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgb(0,154,191);
 }
 
 /* fading animation */

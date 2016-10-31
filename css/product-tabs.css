@@ -10,21 +10,25 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {
+.small-gallery-tab {
   float: left;
   width: 33.333333%;
 }
 
+.large-gallery-tab {
+  float: left;
+  width: 50%;
+}
+
 /* Style the links inside the list items */
-ul.tab li a {
+.small-gallery-tab, .large-gallery-tab {
     display: inline-block;
     color: #fff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 0;
     text-decoration: none;
     transition: 0.3s;
     font-size: 1em;
-    width: 100%;
 }
 
 /* Change background color of links on hover */
